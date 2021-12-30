@@ -1,0 +1,13 @@
+@import '_bootstrap-reboot.min.scss';
+@import 'blocks/hero';
+
+
+
+html{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
