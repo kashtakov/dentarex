@@ -1,0 +1,64 @@
+.team{
+    background-image: url('../../img/team_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    &__header{
+        margin-top: 188px;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 33px;
+        text-align: center;
+        color: #393E46;
+    }
+    .divider{
+        margin-top: 6px;
+        display: block;
+        margin: 0 auto;
+        width: 60px;
+        height: 4px;
+        background: linear-gradient(90deg, #3777FF 0%, #2BBEFE 100%);
+    }
+
+.doctors{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+    .doctor{
+        &__card{
+            width: 540px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 90px;
+
+            img{
+             margin-right: 30px;
+            }
+            &__header{
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 33px;
+                text-transform: uppercase;
+                color: #000000;
+            }
+            &__subheader{
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 33px;
+                color: #E15295;
+
+            }
+            &__text{
+                margin-top: 7px;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+                color: #828FA4;
+            }
+           
+        }
+      
+
+    }
+}

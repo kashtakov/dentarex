@@ -1,0 +1,50 @@
+.feedback{
+    &__header{
+        margin-top: 150px;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 33px;
+        text-align: center;
+        color: #393E46;
+    }
+    &__text{
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #828FA4;
+    }
+    &__buttons{
+        margin-top: 34px;
+        display: flex;
+        justify-content: center;
+
+        button.mail{
+            padding: 11px 27px;
+            width: 190px;
+            height: 55px;
+            background: linear-gradient(90deg, #2E72FF 0%, #25BCFF 100%);
+            border-radius: 50px;
+            outline: none;
+            border: none;
+            font-size: 18px;
+            line-height: 33px;
+            color:#fff;
+            font-weight: 700;
+        }
+        button.consultation{
+            margin-left: 12px;
+            padding: 11px 22px;
+            width: 329px;
+            height: 55px;
+            background: #D04083;
+            border-radius: 50px;
+            outline: none;
+            border: none;
+            font-size: 18px;
+            line-height: 33px;
+            color:#fff;
+            font-weight: 700;
+        }
+    }
+}

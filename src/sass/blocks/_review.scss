@@ -1,0 +1,17 @@
+.rew{
+    
+    width: 100%;
+    z-index: 2;
+}
+.map{
+    transform: translateY(-200px);
+    z-index: -1;
+}
+.overlay{
+    position: relative;
+    .asks{
+        display: block;
+        width: 445px;
+        height: 478px;
+    }
+}
