@@ -101,6 +101,10 @@
             font-weight: 700;
             color: #FFF;
             margin-bottom: 25px;
+            &:hover{
+                transition: 1s all;
+                background: #c54c85;
+            }
             p{
                 margin-top: 20px;
             }
@@ -110,6 +114,10 @@
                 left: 0;
                 background: linear-gradient(314.56deg, #2E72FF 0%, #25BCFF 90.37%);
                 border-radius: 50px 0px 0px 0px;
+                &:hover{
+                    transition: 1s all;
+                    background: linear-gradient(314.56deg, #3c6bc9 0%, #25BCFF 90.37%);
+                }
                 
             }
             &:nth-child(2){
@@ -123,6 +131,10 @@
                 left:486px;
                 background: linear-gradient(48.11deg, #2E72FF 0%, #25BCFF 95.12%);
                 border-radius: 0px 50px 0px 0px;
+                &:hover{
+                    transition: 1s all;
+                    background: linear-gradient(48.11deg, #3861b4 0%, #25BCFF 95.12%); 
+                }
             }
             &:nth-child(4){
                 position: absolute;
@@ -135,6 +147,11 @@
                 left: 243px;
                 top:313px;
                 background: linear-gradient(0deg, #2E72FF 6.88%, #25BCFF 100%);
+                &:hover{
+                    transition: 1s all;
+                    background: linear-gradient(0deg, #4465a5 6.88%, #25BCFF 100%);
+                }
+              
             }
             &:nth-child(6){
                 position: absolute;
