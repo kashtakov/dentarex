@@ -1,0 +1,11 @@
+.footer{
+    min-height: 840px;
+    transform: translateY(750px);
+    background-image: url('../../img/footer_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    padding-top: 334px;
+    &__flexbox{
+        display: flex;
+    }
+}
